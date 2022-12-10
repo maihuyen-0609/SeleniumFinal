@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestParameter">
+<parameter name="username" value="admin"></parameter>
+    <parameter name="password" value="123456"></parameter>
+    <test name="ParameterPermission">
+<classes>
+<!--    <class name="Bai26Parallel.Testcase.TestcaseSignin">-->
+<!--        <methods> <include name="LoginSuccess"/></methods>-->
+<!--    </class>-->
+    <class name="Bai26Parallel.Testcase.TestcasePermission"></class>
+<!--    <class name="Bai26Parallel.Testcase.TestcaseRole"></class>-->
+</classes>
+    </test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite Parallel Login Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="methods" name="Regression Parallel CHROME(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Bai26Parallel.Testcase.TestcaseSignin">
+        <methods>
+          <include name="setupAutomation"/>
+          <include name="closeDriver"/>
+          <include name="createDriver"/>
+          <include name="Login"/>
+          <include name="setupCloseAutomation"/>
+          <include name="LoginFailed1"/>
+        </methods>
+      </class> <!-- Bai26Parallel.Testcase.TestcaseSignin -->
+    </classes>
+  </test> <!-- Regression Parallel CHROME(failed) -->
+</suite> <!-- Failed suite [Suite Parallel Login Test] -->

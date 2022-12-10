@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestListener">
+    <test name="listener">
+        <classes>
+            <class name="Bai26Parallel.Testcase.LearnTestListener"></class>
+            <class name="Bai26Parallel.Testcase.TestcasePermission"></class>
+
+        </classes>
+    </test>
+</suite>

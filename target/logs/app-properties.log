@@ -1,0 +1,28 @@
+[INFO] 10-12-2022 14:24:06 [TestNG-tests-1] Log - Start suite: Sat Dec 10 14:24:05 CST 2022
+[INFO] 10-12-2022 14:24:13 [TestNG-test=Regression Parallel CHROME-1] Log - Open:http://172.18.0.246:9292/#/login
+[INFO] 10-12-2022 14:24:14 [TestNG-test=Regression Parallel CHROME-1] Log - checkElementExist: true --- By.xpath: //h1[@class='text-center font-bold text-white text-6xl']
+[INFO] 10-12-2022 14:24:15 [TestNG-test=Regression Parallel CHROME-1] Log - Set text:admin1on elementBy.xpath: //input[@placeholder='Account']
+[INFO] 10-12-2022 14:24:17 [TestNG-test=Regression Parallel CHROME-1] Log - Set text:123456on elementBy.xpath: //input[@placeholder='Password']
+[INFO] 10-12-2022 14:24:18 [TestNG-test=Regression Parallel CHROME-1] Log - Click:By.xpath: //button[@type='button']
+[INFO] 10-12-2022 14:24:20 [TestNG-test=Regression Parallel CHROME-1] Log - checkElementExist: true --- By.xpath: //div[@class='p-toast p-component p-toast-top-right']
+[INFO] 10-12-2022 14:24:21 [TestNG-test=Regression Parallel CHROME-1] Log - Get text:-1000002
+user not allowed to log in.
+[INFO] 10-12-2022 14:24:22 [TestNG-test=Regression Parallel CHROME-1] Log - Verify equals: -1000002
+user not allowed to log in.and-1000002
+user not allowed to log in345.
+[ERROR] 10-12-2022 14:24:22 [TestNG-test=Regression Parallel CHROME-1] Log - LoginFailed1is failed
+[INFO] 10-12-2022 14:24:24 [TestNG-tests-1] Log - Finish suite: Sat Dec 10 14:24:24 CST 2022
+[INFO] 10-12-2022 15:05:56 [TestNG-tests-1] Log - Start suite: Sat Dec 10 15:05:55 CST 2022
+[INFO] 10-12-2022 15:06:04 [TestNG-test=Regression Parallel CHROME-1] Log - Open:http://172.18.0.246:9292/#/login
+[INFO] 10-12-2022 15:06:06 [TestNG-test=Regression Parallel CHROME-1] Log - checkElementExist: true --- By.xpath: //h1[@class='text-center font-bold text-white text-6xl']
+[INFO] 10-12-2022 15:06:07 [TestNG-test=Regression Parallel CHROME-1] Log - Set text:admin1on elementBy.xpath: //input[@placeholder='Account']
+[INFO] 10-12-2022 15:06:08 [TestNG-test=Regression Parallel CHROME-1] Log - Set text:123456on elementBy.xpath: //input[@placeholder='Password']
+[INFO] 10-12-2022 15:06:10 [TestNG-test=Regression Parallel CHROME-1] Log - Click:By.xpath: //button[@type='button']
+[INFO] 10-12-2022 15:06:11 [TestNG-test=Regression Parallel CHROME-1] Log - checkElementExist: true --- By.xpath: //div[@class='p-toast p-component p-toast-top-right']
+[INFO] 10-12-2022 15:06:13 [TestNG-test=Regression Parallel CHROME-1] Log - Get text:-1000002
+user not allowed to log in.
+[INFO] 10-12-2022 15:06:14 [TestNG-test=Regression Parallel CHROME-1] Log - Verify equals: -1000002
+user not allowed to log in.and-1000002
+user not allowed to log in345.
+[ERROR] 10-12-2022 15:06:14 [TestNG-test=Regression Parallel CHROME-1] Log - LoginFailed1is failed
+[INFO] 10-12-2022 15:06:16 [TestNG-tests-1] Log - Finish suite: Sat Dec 10 15:06:16 CST 2022

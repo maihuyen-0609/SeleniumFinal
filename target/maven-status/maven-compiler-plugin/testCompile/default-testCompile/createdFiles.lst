@@ -1,0 +1,14 @@
+Bai26Parallel\Pages\PageSignin.class
+Bai26Parallel\Pages\PermissionPage.class
+Bai26Parallel\Pages\RolePage.class
+Bai26Parallel\Testcase\TestcaseRole.class
+Bai26Parallel\Pages\PageDashboard.class
+common\BaseTestNew.class
+Bai26Parallel\Testcase\TestcasePermission.class
+Bai26Parallel\Testcase\LearnTestListener.class
+Bai26Parallel\Testcase\TestcaseSignin.class
+dataprovider\DataProviderManager.class
+Bai26Parallel\Pages\CommonPage.class
+Bai26Parallel\Testcase\LearnDataProvider.class
+listener\Testlistener.class
+Bai26Parallel\Testcase\LearnScreenshot.class
